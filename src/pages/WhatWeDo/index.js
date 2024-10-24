@@ -1,8 +1,10 @@
 import { NavBar } from "../../components/NavBar/NavBar";
 import "./WhatWeDo.css"
-import what_we_do_image from "./../../assets/what_we_do_image.png"
+// import what_we_do_image from "./../../assets/what_we_do_image.png"
 import { LinkImages } from "../../components/LinkImages/LinkImages";
 import { Footer } from "../../components/CompanyInfoBanner/Footer";
+import Image from 'next/image';
+import what_we_do_image from '../../../public/assets/what_we_do_image.png';
 
 export const WhatWeDo = () => {
     return(
@@ -13,7 +15,7 @@ export const WhatWeDo = () => {
                     <p>What we do</p>
                 </section>
                 <section className="what-we-do-image">
-                    <img src={ what_we_do_image } alt="what we doimage" />
+                <Image src={what_we_do_image} alt="What We Do" />
                 </section>
                 <section className="what-we-do-text">
                     <p>Clothes Together aims to provide families in need with high quality clothing, based on their
@@ -45,3 +47,5 @@ in real need.</p>
         </div>
     )
 }
+
+export default WhatWeDo
