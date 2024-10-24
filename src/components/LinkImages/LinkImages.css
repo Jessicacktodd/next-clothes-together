@@ -1,0 +1,27 @@
+.link-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 10px ;
+}
+
+.link-item {
+    text-align: center;
+    width: 30%;
+}
+
+.mustard-link-image, .green-link-image, .orange-link-image {
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.link-description {
+    font-size: 14px;
+    margin-top: 1px;
+
+}

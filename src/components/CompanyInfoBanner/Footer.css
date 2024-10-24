@@ -1,0 +1,24 @@
+.Nile-blue-section-two {
+    background-color: rgba(69, 181, 170, 0.5);
+    padding: 10px 0;
+    color: black;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.misc-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    font-size: 14px;
+    gap: 0px;
+}
+
+.misc-links p {
+    margin: 2px 0;
+}

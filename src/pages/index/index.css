@@ -1,0 +1,48 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+.Nile-blue-section {
+    background-color: rgba(69, 181, 170, 0.5);
+    padding: 15px 0;
+    color: black;
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote {
+    text-align: center;
+    font-size: 27px;
+    color: rgb(255, 125, 64);
+    margin: 15px auto;
+}
+
+.section-image {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+}
+
+.text-block {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.text-block p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+

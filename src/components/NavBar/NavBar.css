@@ -1,0 +1,133 @@
+#navbar-div-container nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 50px;
+    margin-top: 1%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    display: block; 
+}
+
+.clothes-together-logo {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+
+.social-links {
+    margin-left: 2%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.social-icon {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.spread-out-links {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px 0;
+}
+
+.spread-out-links a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+    flex: 1;
+    text-align: center;
+}
+
+.spread-out-links a:hover {
+    color: rgb(255, 125, 64);
+}
+
+nav {
+    display: flex;
+    gap: 0px;
+    max-width: 100%;
+}
+
+.right-side-links a {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.right-side-links a:hover {
+    color: rgb(255, 125, 64);
+    background-color: transparent;
+}
+
+.right-side-links a:active {
+    color: rgb(255, 125, 64); 
+}
+
+@media (max-width: 600px) {
+    #navbar-div-container nav {
+      justify-content: center;
+      padding: 10px 20px;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-links {
+      margin-left: 0;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .clothes-together-logo {
+      width: 70%;
+    }
+  
+    .spread-out-links {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .spread-out-links a {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+  
+    .right-side-links button {
+      font-size: 12px;
+      padding: 5px;
+    }
+  }
+  
