@@ -3,5 +3,5 @@ const nextConfig = {
     reactStrictMode: true,
   };
   
-  export default nextConfig; // Use export default for ES module
+  export default nextConfig; 
   

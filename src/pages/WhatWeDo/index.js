@@ -15,7 +15,7 @@ export const WhatWeDo = () => {
                     <p>What we do</p>
                 </section>
                 <section className="what-we-do-image">
-                <Image src={what_we_do_image} alt="What We Do" />
+                <Image src={what_we_do_image} alt="What We Do" priority/>
                 </section>
                 <section className="what-we-do-text">
                     <p>Clothes Together aims to provide families in need with high quality clothing, based on their

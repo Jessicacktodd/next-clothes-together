@@ -13,7 +13,7 @@ export const WhoWeAre = () => {
                     <p>Who we are</p>
                 </section>
                 <section className="Who-we-are-image">
-                    <Image src="/assets/Who_we_are_photo.png" alt="Kate garden" width={800} height={600} />
+                    <Image src="/assets/Who_we_are_photo.png" alt="Kate garden" width={800} height={600} priority/>
                 </section>
                 <section className="mock-text">
                     <p>Ethical childrenswear brand, Pigeon Organics, has been donating spare stock to charities and community groups for several years: 
