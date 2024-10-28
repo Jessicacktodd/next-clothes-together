@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <Head>
-            <link rel="shortcut icon" href="/favicon.ico" />
+                <link rel="icon" type="image/png" href="/favicon.png" />
             </Head>
             <Component {...pageProps} />
         </>
@@ -13,4 +13,5 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
 

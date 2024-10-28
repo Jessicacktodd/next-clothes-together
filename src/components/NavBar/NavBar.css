@@ -27,7 +27,7 @@ a {
 }
 
 .clothes-together-logo {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   display: block;
 }
@@ -63,6 +63,10 @@ a {
     transition: color 0.3s ease;
     flex: 1;
     text-align: center;
+}
+
+.spread-out-links a.active-link {
+  color: rgb(255, 125, 64);
 }
 
 .spread-out-links a:hover {

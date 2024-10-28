@@ -20,13 +20,14 @@ const ContactForm = () => {
         const templateParams = {
             from_name: formData.name,
             user_type: formData.brandOrCharity,
+            from_email: formData.email,
             message: formData.message,
         };
 
         emailjs.send('service_q66c34c', 'template_hr9phqj', templateParams, '5NDosZfOmlbKIl_Y0')
             .then((result) => {
                 console.log('Email sent:', result.text);
-                setFormData({ name: '', brandOrCharity: '', message: '' });
+                setFormData({ name: '', email: '', brandOrCharity: '', message: '' });
             }, (error) => {
                 console.log('Error:', error.text);
             });
@@ -42,13 +43,26 @@ const ContactForm = () => {
                 onChange={handleChange} 
                 required 
             />
-            <input 
-                type="text" 
-                name="brandOrCharity" 
-                placeholder="Brand or Charity" 
-                value={formData.brandOrCharity} 
-                onChange={handleChange} 
-                required 
+            <select
+                className={formData.brandOrCharity ? "dropdown" : "dropdown placeholder"} 
+                name="brandOrCharity"
+                value={formData.brandOrCharity}
+                onChange={handleChange}
+                required
+            >
+                <option value="" disabled>Select who you are</option>
+                <option value="Brand">Brand</option>
+                <option value="Charity">Charity</option>
+                <option value="Press">Press</option>
+                <option value="Other">Other</option>
+            </select>
+            <input
+                type="text"
+                name='email'
+                placeholder='Your Email'
+                value={formData.email}
+                onChange={handleChange}
+                required
             />
             <textarea 
                 name="message" 

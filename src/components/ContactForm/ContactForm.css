@@ -10,7 +10,7 @@ form {
     margin-bottom: 50px;
   }
 
-  input, textarea {
+  input, textarea, select {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
@@ -19,8 +19,22 @@ form {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    color: black; 
+    background-color: #fff
   }
-  
+
+  select {
+    color: #333; 
+}
+
+.placeholder {
+    color: #aaa;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aaa; 
+}
+
   .contact-form-button {
     padding: 10px 20px;
     background-color: rgb(78, 72, 69); 
@@ -42,7 +56,7 @@ button:hover {
     padding: 15px 20px;
   }
 
-  input, textarea {
+  input, textarea, select {
     font-size: 14px; 
     padding: 8px;
   }

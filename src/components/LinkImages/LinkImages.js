@@ -14,6 +14,7 @@ export const LinkImages = () => {
                             width={500}
                             height={300}
                             className="mustard-link-image"
+                            priority
                         />
                     </Link>
                     <p className="link-description">Who We Are</p>
@@ -26,6 +27,7 @@ export const LinkImages = () => {
                             width={500}
                             height={300}
                             className="green-link-image"
+                            priority
                         />
                     </Link>
                     <p className="link-description">Partner brands</p>
@@ -38,6 +40,7 @@ export const LinkImages = () => {
                             width={500}
                             height={300}
                             className="orange-link-image"
+                            priority
                         />
                     </Link>
                     <p className="link-description">Partner charities</p>
