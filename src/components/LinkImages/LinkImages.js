@@ -9,41 +9,62 @@ export const LinkImages = () => {
                 <div className="link-item">
                     <Link href="/WhoWeAre">
                         <Image
-                            src="/assets/mustard_link_image.png"
-                            alt="Mustard Link"
+                            src="/assets/red_icon.png"
+                            alt="who we are icon"
                             width={500}
                             height={300}
-                            className="mustard-link-image"
+                            className="red-icon"
                             priority
                         />
                     </Link>
-                    <p className="link-description">Who We Are</p>
+                </div>
+                <div className="link-item">
+                    <Link href="/WhatWeDo">
+                        <Image
+                            src="/assets/mustard_icon.png"
+                            alt="what we do icon"
+                            width={500}
+                            height={300}
+                            className="mustard-icon"
+                            priority
+                        />
+                    </Link>
                 </div>
                 <div className="link-item">
                     <Link href="/FindOutMoreBrands">
                         <Image
-                            src="/assets/green_link_image.png"
-                            alt="Green Link"
+                            src="/assets/green_icon.png"
+                            alt="Find Out More Brands icon"
                             width={500}
                             height={300}
-                            className="green-link-image"
+                            className="green-icon"
                             priority
                         />
                     </Link>
-                    <p className="link-description">Partner brands</p>
                 </div>
                 <div className="link-item">
                     <Link href="/FindOutMoreCharities">
                         <Image
-                            src="/assets/orange_link_image.png"
-                            alt="Orange Link"
+                            src="/assets/mint_icon.png"
+                            alt="Find Out More Charities icon"
                             width={500}
                             height={300}
-                            className="orange-link-image"
+                            className="mint-icon"
                             priority
                         />
                     </Link>
-                    <p className="link-description">Partner charities</p>
+                </div>
+                <div className="link-item">
+                    <Link href="/Press">
+                        <Image
+                            src="/assets/blue_icon.png"
+                            alt="Press icon"
+                            width={500}
+                            height={300}
+                            className="blue-icon"
+                            priority
+                        />
+                    </Link>
                 </div>
             </section>
     )};

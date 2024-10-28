@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 950px;
     margin: 0 auto;
     padding: 10px ;
 }
@@ -12,7 +11,7 @@
     width: 30%;
 }
 
-.mustard-link-image, .green-link-image, .orange-link-image {
+.red-icon, .mustard-icon, .green-icon, .mint-icon, .blue-icon {
     width: 50%;
     height: auto;
     cursor: pointer;

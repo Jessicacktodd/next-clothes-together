@@ -1,68 +1,75 @@
 form {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 50px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-  input, textarea, select {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    color: black; 
-    background-color: #fff
-  }
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  color: #333;
+  background-color: #fff;
+  transition: border 0.3s ease;
+}
 
-  select {
-    color: #333; 
+select {
+  color: #333; 
 }
 
 .placeholder {
-    color: #aaa;
+  color: #aaa;
 }
 
 input::placeholder, textarea::placeholder {
-    color: #aaa; 
+  color: #aaa; 
 }
 
-  .contact-form-button {
-    padding: 10px 20px;
-    background-color: rgb(78, 72, 69); 
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+textarea {
+  resize: vertical;
+}
+
+.contact-form-button {
+  padding: 12px 0;
+  background-color: rgb(78, 72, 69);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: rgb(255, 125, 64); 
-    color: white;
+  background-color: rgb(255, 125, 64); 
+  color: white;
 }
 
 @media (max-width: 600px) {
   form {
-    width: 100%; 
-    padding: 15px 20px;
+      width: 100%; 
+      padding: 20px;
   }
 
   input, textarea, select {
-    font-size: 14px; 
-    padding: 8px;
+      font-size: 14px; 
+      padding: 10px;
   }
 
   .contact-form-button {
-    padding: 10px;
-    font-size: 14px;
+      padding: 12px;
+      font-size: 14px;
   }
 }

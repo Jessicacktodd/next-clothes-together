@@ -13,7 +13,7 @@ export const ContactUs = () => {
             <section className="contact-us-heading">
                 <p>Contact Us</p>
             </section>
-        <ContactForm />
+            <ContactForm />
         </section>
     <LinkImages />
     <Footer />

@@ -11,6 +11,10 @@ export const Press = () => {
                 <section className="press-heading">
                     <p>Press</p>
                 </section>
+                <div className="pdf-images">
+                    <img src="assets/press1.png" alt="Press Release 1" />
+                    <img src="assets/press2.png" alt="Press Release 2" />
+                </div>
             </section>
             <LinkImages />
             <Footer />

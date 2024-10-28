@@ -16,3 +16,19 @@
     color: rgb(255, 125, 64);
     margin: 15px auto;
 }
+
+.pdf-images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .pdf-images img {
+    width: 50%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -18,7 +18,7 @@ export const NavBar = () => {
                 
                 <div className="right-side-links">
                     <nav>
-                        <Link href="/ContatUs">Contact Us</Link>
+                        <Link href="/ContactUs">Contact Us</Link>
                     </nav>
                 </div>
             </header>
