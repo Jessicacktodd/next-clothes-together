@@ -4,7 +4,11 @@ import Image from 'next/image';
 import { LinkImages } from "../components/LinkImages/LinkImages";
 import "./index.css"
 
-
+export async function getStaticProps() {
+    return {
+        props: {}, 
+    };
+}
 
 export const LandingPage = () => {
     return (

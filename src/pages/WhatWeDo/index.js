@@ -6,6 +6,12 @@ import { Footer } from "../../components/CompanyInfoBanner/Footer";
 import Image from 'next/image';
 import what_we_do_image from '../../../public/assets/what_we_do_image.png';
 
+export async function getStaticProps() {
+    return {
+        props: {}, 
+    };
+}
+
 export const WhatWeDo = () => {
     return(
         <div className="whatWeDo">

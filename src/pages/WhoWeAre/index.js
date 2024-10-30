@@ -4,6 +4,12 @@ import Image from 'next/image';
 import { LinkImages } from "../../components/LinkImages/LinkImages";
 import { Footer } from "../../components/CompanyInfoBanner/Footer";
 
+export async function getStaticProps() {
+    return {
+        props: {}, 
+    };
+}
+
 export const WhoWeAre = () => {
     return (
         <div className="WhoWeAre">

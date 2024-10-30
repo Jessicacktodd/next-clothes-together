@@ -9,11 +9,11 @@ export const LinkImages = () => {
                 <div className="link-item">
                     <Link href="/WhoWeAre">
                         <Image
-                            src="/assets/red_icon.png"
+                            src="/assets/who_we_are_icon.png"
                             alt="who we are icon"
                             width={500}
                             height={300}
-                            className="red-icon"
+                            className="who-we-are-icon"
                             priority
                         />
                     </Link>
@@ -21,11 +21,11 @@ export const LinkImages = () => {
                 <div className="link-item">
                     <Link href="/WhatWeDo">
                         <Image
-                            src="/assets/mustard_icon.png"
+                            src="/assets/what_we_do_icon.png"
                             alt="what we do icon"
                             width={500}
                             height={300}
-                            className="mustard-icon"
+                            className="what-we-do-icon"
                             priority
                         />
                     </Link>
@@ -33,11 +33,11 @@ export const LinkImages = () => {
                 <div className="link-item">
                     <Link href="/FindOutMoreBrands">
                         <Image
-                            src="/assets/green_icon.png"
+                            src="/assets/partner_brands_icon.png"
                             alt="Find Out More Brands icon"
                             width={500}
                             height={300}
-                            className="green-icon"
+                            className="partner-brands-icon"
                             priority
                         />
                     </Link>
@@ -45,11 +45,11 @@ export const LinkImages = () => {
                 <div className="link-item">
                     <Link href="/FindOutMoreCharities">
                         <Image
-                            src="/assets/mint_icon.png"
+                            src="/assets/partner_charities_icon.png"
                             alt="Find Out More Charities icon"
                             width={500}
                             height={300}
-                            className="mint-icon"
+                            className="partner-charities-icon"
                             priority
                         />
                     </Link>
@@ -57,11 +57,11 @@ export const LinkImages = () => {
                 <div className="link-item">
                     <Link href="/Press">
                         <Image
-                            src="/assets/blue_icon.png"
+                            src="/assets/press_icon.png"
                             alt="Press icon"
                             width={500}
                             height={300}
-                            className="blue-icon"
+                            className="press-icon"
                             priority
                         />
                     </Link>
