@@ -1,7 +1,6 @@
 import '@testing-library/jest-dom'
 import { getByAltText, render, screen } from '@testing-library/react'
 import LandingPage from '../src/pages/index'
-import { useRouter } from 'next/router'
 import mockRouter from 'next-router-mock';
 
 jest.mock('next/router', () => require('next-router-mock'));
@@ -29,6 +28,6 @@ describe('LandingPage', () => {
         render(<LandingPage />);
 
         const link_images = screen.getByAltText('who we are icon')
-        expect(link_images).toBeInTheDocument
+        expect(link_images).toBeInTheDocument();
     });
 });
